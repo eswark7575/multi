@@ -16,8 +16,18 @@
           <module>bank-ocr</module>
           <module>gilded-rose</module>
           <module>game-of-life</module>
-	</modules>
-
+        </modules>
+ 
+        <distributionManagement>
+          <snapshotRepository>
+            <id>multi_snapshots</id>
+            <url>http://ec2-15-206-185-192.ap-south-1.compute.amazonaws.com:8081/repository/multi_snapshots/</url>
+          </snapshotRepository>
+          <repository>
+            <id>multi_release</id>
+            <url>http://ec2-15-206-185-192.ap-south-1.compute.amazonaws.com:8081/repository/multi_release/</url>
+          </repository>
+        </distributionManagement>
 
 	
 
